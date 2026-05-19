@@ -157,6 +157,54 @@ a:hover {
   margin-top: 0.3em;
 }
 
+/* ---------- Instructions block ---------- */
+
+.instructions {
+  margin: 2.5em 0;
+  max-width: 60ch;
+}
+
+.instructions-label {
+  font-family: var(--sans);
+  font-size: 8.5pt;
+  color: var(--subdued);
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  margin-bottom: 0.7em;
+}
+
+.instructions h3 {
+  margin: 0 0 0.4em 0;
+  font-size: 12pt;
+  font-style: normal;
+}
+
+.instructions .note {
+  font-style: italic;
+  color: var(--subdued);
+  margin-bottom: 1em;
+}
+
+.instructions ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.instructions ul li {
+  position: relative;
+  padding-left: 1.2em;
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+
+.instructions ul li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: var(--subdued);
+}
+
 /* ---------- Schedule ---------- */
 
 .schedule-week {
